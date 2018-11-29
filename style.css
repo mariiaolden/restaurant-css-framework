@@ -1,8 +1,14 @@
-
-.pizza-bg {
+body {
   background-image: url(selene-is-awesome.png);
-  background-size: cover;
-  margin-bottom: 0;
+}
+.jumbotron {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron-bg {
+  width: 100%;
+  height: auto;
 }
 .logo {
   background-color: rgba(255,255,255,0);
@@ -13,7 +19,10 @@
   width: 400px;
   height: 300px;
   padding: 40px;
+}
 
+.bg-black {
+  background-color: #000;
 }
 .christmas {
   background-image: url(https://www.joann.com/on/demandware.static/-/Sites-joann-product-catalog/default/dw73625865/images/hi-res/15/15583255.jpg);
@@ -28,4 +37,8 @@ nav {
   background-color: #fff;
 }
 
-.jouwkalsse
+.promo {
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+}
